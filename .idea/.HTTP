@@ -1,0 +1,16 @@
+POST http://localhost:8081/register
+content-type: application/json
+
+{
+  "username": null,
+  "password": 1,
+  "email":7,
+  "verificationCode":10
+}
+
+###
+GET http://localhost:8081/test?test=1
+
+
+###
+GET http://localhost:8081/test2
